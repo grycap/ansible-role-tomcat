@@ -1,0 +1,3 @@
+---
+- name: Apt install Octave in Deb system
+  apt: name=default-jdk,tomcat7 update_cache=yes cache_valid_time=3600

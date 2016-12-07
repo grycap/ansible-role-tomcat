@@ -1,0 +1,6 @@
+---
+- name: Install epel
+  yum: pkg=epel-release
+
+- name: Yum install Tomcat7 in REL system
+  yum: pkg=default-jdk,tomcat update_cache=yes
